@@ -112,3 +112,24 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+
+## Usage Notes and solution
+
+1. The four plots are created directly in the root folder at the following
+   locations:
+    1. [Plot 1](plot1.png)
+    1. [Plot 2](plot2.png)
+    1. [Plot 3](plot3.png)
+    1. [Plot 4](plot4.png)
+2. The code files that create these plots are available at:
+    1. [Plot 1](plot1.R)
+    1. [Plot 2](plot2.R)
+    1. [Plot 3](plot3.R)
+    1. [Plot 4](plot4.R)
+3. The code automatically downloads the source zip file and unzips it if the
+   source files are not available.
+4. The source `zip` file and the extracted `txt` files are ignored by git - and
+   can't be added in to the repository.
+5. To use, just set your working directory to this folder and source `plot1.R`
+   etc. This will create `plot1.png` in the current folder. The other three plot
+   files work the exact same way.
