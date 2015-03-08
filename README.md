@@ -133,3 +133,7 @@ The four plots that you will need to construct are shown below.
 5. To use, just set your working directory to this folder and source `plot1.R`
    etc. This will create `plot1.png` in the current folder. The other three plot
    files work the exact same way.
+6. The files check for a global variable called `rawData` to speed up processing
+   the input file in case we are running this script multiple times or executing
+   multiple plots. Please ensure that `rawData` doesn't exist before you execute
+   any of the plot scripts.
